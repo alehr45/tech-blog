@@ -9,16 +9,20 @@ body, html {
   font-family: sans-serif;
   color: #333;
 }
+.tech {
+  font-family: urban;
+  }
+
 
 a {
   text-decoration: none;
-  color: #225ca3;
+  color: #c1571e;
   font-weight: bold;
   transition: color .1s;
 }
 
 a:hover {
-  color: #3486eb;
+  color: #ffb700;
 }
 
 button {
@@ -33,7 +37,12 @@ button {
 }
 
 button:hover {
-  background-color: #3486eb;
+  background-color: #ffb700;
+}
+
+@font-face {
+  font-family: urban;
+  src: url(../fonts/urbantribE.ttf);
 }
 
 .post-list {
@@ -65,7 +74,10 @@ form label {
   display: block;
 }
 
+
+
 .wrapper {
+  background-color: rgb(165, 162, 121);
   width: 100%;
   min-height: 100%;
   max-width: 1200px;
@@ -75,7 +87,8 @@ form label {
 }
 
 header {
-  border-bottom: 1px solid #ccc;
+  background-color: rgb(45, 45, 45);
+  border-bottom: 1px solid 
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -83,7 +96,7 @@ header {
 }
 
 header h1 {
-  font-size: 1em;
+  text-align: center;
 }
 
 main {
@@ -92,12 +105,13 @@ main {
 }
 
 .btn-no-style {
+
   background: none;
   border: none;
   padding: 0;
   cursor: pointer;
   text-decoration: none;
-  color: #225ca3;
+  color: #ffb700;
   font-size: 100%;
   font-weight: bold;
   transition: color .1s;
@@ -106,7 +120,7 @@ main {
 
 .btn-no-style:hover {
   background: none;
-  color: #3486eb;
+  color: #ffb700;
 }
 
 .delete-post-btn {
@@ -118,30 +132,38 @@ main {
 }
 
 .post {
+  
   margin-bottom: 2%;
   line-height: 150%;
 }
 
 .post .title span {
+  text-align: center;
   font-style: italic;
   font-size: 90%;
   color: #7d7d7d;
 }
-
+.text2 {
+  list-style-type: none;
+  display:flex;
+  justify-content: center;
+}
 .edit-link {
+  text-align: center;
   display: block;
   margin: -1.5% 0 2% 0;
 }
 
-.upvote-btn {
-  background-color: #197d0f;
-  transition: background-color .1s;
+.title2 {
+  
+  display: flex;
+  justify-content: center;
 }
 
-.upvote-btn:hover {
-  background-color: #1f9c13;
-}
+.meta {
+text-align: center;
 
+}
 .comment-form {
   margin-bottom: 5%;
 }
@@ -168,8 +190,20 @@ main {
 .edit-post-form {
   margin-bottom: 5%;
 }
+.post-list {
+list-style-type: none; /* Remove bullets */
+  
+  }
+
+
+.post {
+  list-style-type: none;
+}
 
 footer {
+  font-family: urban;
+  background-color: rgb(45, 45, 45);
+  color: #c1571e;
   border-top: 1px solid #ccc;
   display: flex;
   justify-content: center;
