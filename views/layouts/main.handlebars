@@ -16,8 +16,11 @@
           <a class="tech" href="/">Just Tech News</a>
         </h1>
         <nav>
-          <button id="logout" class="btn-no-style">logout</button>
-          <a href="/login">login</a>
+          {{#if loggedIn}}
+          <a type="button" class="logout2" id="logout" class="btn-no-style">logout</a>
+          {{else}}
+          <a class="login" href="/login">login</a>
+          {{/if}}
         </nav>
       </header>
     </header>
@@ -27,7 +30,11 @@
     <footer>
       -Copyright &copy 2021-
     </footer>
-<script src="/javascript/logout.js"></script>
-</body>
+    
+
 
 </html>
+
+{{#if loggedIn}}
+<script src="/javascript/logout.js"></script>
+{{/if}}

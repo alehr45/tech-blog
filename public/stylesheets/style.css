@@ -9,10 +9,20 @@ body, html {
   font-family: sans-serif;
   color: #333;
 }
+
 .tech {
   font-family: urban;
   }
 
+  .login{
+    font-family: rajd;
+    font-size: 20px;
+  }
+
+  .logout2{
+    font-family: rajd;
+    font-size: 20px;
+}
 
 a {
   text-decoration: none;
@@ -26,7 +36,7 @@ a:hover {
 }
 
 button {
-  background-color: #225ca3;
+  background-color: #c1571e;
   border: 0;
   padding: 1%;
   color: white;
@@ -43,6 +53,11 @@ button:hover {
 @font-face {
   font-family: urban;
   src: url(../fonts/urbantribE.ttf);
+}
+
+@font-face {
+  font-family: rajd;
+  src: url(../fonts/Rajdhani-Regular.ttf);
 }
 
 .post-list {
