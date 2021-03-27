@@ -120,13 +120,12 @@ main {
 }
 
 .btn-no-style {
-
   background: none;
   border: none;
   padding: 0;
   cursor: pointer;
   text-decoration: none;
-  color: #ffb700;
+  color: #c1571e;
   font-size: 100%;
   font-weight: bold;
   transition: color .1s;

@@ -13,13 +13,14 @@
     <header>
       <header>
         <h1>
-          <a class="tech" href="/">Just Tech News</a>
+          <a class="tech" href="/">The Tech Blog</a>
         </h1>
         <nav>
           {{#if loggedIn}}
-          <a type="button" class="logout2" id="logout" class="btn-no-style">logout</a>
+          <a href="/dashboard">dashboard</a>
+          <button  id="logout" class="btn-no-style">logout</button>
           {{else}}
-          <a class="login" href="/login">login</a>
+          <a href="/login">login</a>
           {{/if}}
         </nav>
       </header>
@@ -30,7 +31,7 @@
     <footer>
       -Copyright &copy 2021-
     </footer>
-    
+
 
 
 </html>
