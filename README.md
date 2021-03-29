@@ -6,6 +6,7 @@
 ========================
 * [Description](#description)
 * [Installation](#installation)
+* [Technologies Used](#technologies)
 * [Contributors](#contributors)
 * [Contact](#questions)
 
@@ -29,7 +30,15 @@ To converse all things tech!
 
 ### **Contributors**  
 alehr45
- 
+
+### **Technologies Used**
+Express
+Handlebars
+Dotenv
+bcrypt
+mySQL2 
+Sequelize
+
 ========================
 
 ### Questions?
