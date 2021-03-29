@@ -19,6 +19,8 @@ tech-blog
 ### **Description**  
 An online blog thats tech related! Create, update, delete and comment on your posts with this easy to use app. 
 
+![Alt text](/screenshot.png?raw=true "Optional Title")
+
 ### **Installation**  
 N/A
 
