@@ -20,7 +20,7 @@ An online blog thats tech related! Create, update, delete and comment on your po
 ![Alt text](/screenshot.png?raw=true "Optional Title")
 
 ### **Installation**  
-N/A
+Just visit https://techblog-45.herokuapp.com/ to use!
 
 ### **Usage**  
 To converse all things tech!
