@@ -6,7 +6,7 @@
 ========================
 * [Description](#description)
 * [Installation](#installation)
-* [Technologies Used](#technologies used)
+* [Technologies Used](#technologies-used)
 * [Contributors](#contributors)
 * [Contact](#questions)
 
