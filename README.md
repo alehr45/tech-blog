@@ -16,9 +16,9 @@
 tech-blog
 
 ### **Description**  
-An online blog thats tech related! 
-Create, update, delete and comment on your posts with this easy to use app. 
-30 seconds of inactivity will log you out.
+##### An online blog thats tech related! 
+##### Create, update, delete and comment on your posts with this easy to use app. 
+##### 30 seconds of inactivity will log you out.
 
 ![Alt text](/screenshot.png?raw=true "Optional Title")
 
